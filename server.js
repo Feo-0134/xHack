@@ -14,7 +14,7 @@ function server() {
     router.get('/getPick', bodyParser(), getService)
     app.use(router.routes())
     app.use(router.allowedMethods())
-    app.listen(3030);
-    console.log('Listening on 3030')
+    app.listen(3000);
+    console.log('Listening on 3000')
 }
 exports.server = server;
