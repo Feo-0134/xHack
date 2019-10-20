@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <div style="margin: 20px 0">
-    <PickZone catagories="['hello']"/>
+    <PickZone v-loading="loading" catagories="['hello']"/>
 </div>
 
 
@@ -18,8 +18,16 @@ export default {
     msg: String
   },
   components: {
-  PickZone
-}
+    PickZone
+  },
+  data() {
+    return{
+      loading: true
+    }
+  },
+  mounted() {
+    setTimeout(()=>{this.loading = false},2000)
+  }
 }
 </script>
 
