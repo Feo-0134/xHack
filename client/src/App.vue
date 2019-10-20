@@ -2,17 +2,20 @@
   <div id="app">
     <img class="logoImg" alt="Vue logo" src="./assets/logo2.png">
     <UploadPage msg = "Welcome to Your Supreme"/>
+    <!-- <HelloWorld msg = "Welcome to Your Supreme"/> -->
   </div>
 </template>
 
 <script>
 import UploadPage from './components/UploadPage.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 
 export default {
   name: 'app',
   components: {
     UploadPage,
+    // HelloWorld
   }
 }
 </script>
