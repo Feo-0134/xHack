@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <p style="font-size: 30px">Initiate your fashion from future</p>
     <div style="margin: 20px 0">
     <PickZone v-loading="loading" catagories="['hello']"/>
 </div>
