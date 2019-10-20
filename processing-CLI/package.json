@@ -18,7 +18,7 @@
     "minifier": "^0.7.1",
     "node-minify": "~0.7.3",
     "nunjucks": "~0.1.9",
-    "open": "0.0.3"
+    "open": "6.0.0"
   },
   "scripts": {
     "test": "node test",
